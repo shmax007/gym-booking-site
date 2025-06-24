@@ -13,18 +13,32 @@
   
   <main>
     <section id="class-schedule">
-  <h2>Weekly Classes</h2>
+  <h2>Class Schedule</h2>
+  
+  <!-- Crossfit/Functional Classes -->
   <div class="class-card">
-    <h3>Morning Yoga</h3>
-    <p>Mon/Wed/Fri - 7:00 AM</p>
+    <h3>Crossfit/Functional Classes</h3>
+    <p>1 hour sessions at:</p>
+    <ul>
+      <li>6:30 AM</li>
+      <li>8:00 AM</li>
+      <li>9:00 AM</li>
+      <li>12:00 PM</li>
+      <li>4:30 PM</li>
+      <li>5:30 PM</li>
+      <li>6:30 PM</li>
+      <li>7:30 PM</li>
+    </ul>
   </div>
+
+  <!-- Open Gym Times -->
   <div class="class-card">
-    <h3>HIIT Training</h3>
-    <p>Tue/Thu - 6:00 PM</p>
-  </div>
-  <div class="class-card">
-    <h3>Zumba Dance</h3>
-    <p>Sat - 10:00 AM</p>
+    <h3>Open Gym (Personal Programs & Weightlifting)</h3>
+    <ul>
+      <li>Morning: 9:00 AM - 12:00 PM</li>
+      <li>Afternoon: 3:30 PM - 6:00 PM</li>
+      <li>Evening: 6:00 PM - 8:30 PM</li>
+    </ul>
   </div>
 </section>
     
@@ -34,11 +48,27 @@
         <input type="text" id="name" placeholder="Your Name" required>
         <input type="email" id="email" placeholder="Email" required>
         <select id="classType" required>
-          <option value="">Select Class</option>
-          <option value="yoga">Morning Yoga</option>
-          <option value="hiit">HIIT Training</option>
-          <option value="zumba">Zumba Dance</option>
-        </select>
+  <option value="">Select Class/Session</option>
+  
+  <!-- Crossfit/Functional Classes -->
+  <optgroup label="Crossfit/Functional Classes">
+    <option value="crossfit-6:30">6:30 AM</option>
+    <option value="crossfit-8:00">8:00 AM</option>
+    <option value="crossfit-9:00">9:00 AM</option>
+    <option value="crossfit-12:00">12:00 PM</option>
+    <option value="crossfit-16:30">4:30 PM</option>
+    <option value="crossfit-17:30">5:30 PM</option>
+    <option value="crossfit-18:30">6:30 PM</option>
+    <option value="crossfit-19:30">7:30 PM</option>
+  </optgroup>
+  
+  <!-- Open Gym Sessions -->
+  <optgroup label="Open Gym">
+    <option value="open-gym-morning">Morning (9:00 AM - 12:00 PM)</option>
+    <option value="open-gym-afternoon">Afternoon (3:30 PM - 6:00 PM)</option>
+    <option value="open-gym-evening">Evening (6:00 PM - 8:30 PM)</option>
+  </optgroup>
+</select>
         <input type="date" id="date" required>
         <button type="submit">Book Now</button>
       </form>

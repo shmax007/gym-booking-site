@@ -47,3 +47,22 @@ footer {
   margin-bottom: 15px;
   border-radius: 8px;
 }
+.class-card ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.class-card li {
+  margin-bottom: 8px;
+}
+
+optgroup {
+  font-weight: bold;
+  font-style: normal;
+  padding: 5px 0;
+}
+
+optgroup option {
+  font-weight: normal;
+  padding: 3px 10px;
+}
