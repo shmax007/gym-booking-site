@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Class Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FitLife Gym Classes</h1>
+  </header>
+  
+  <main>
+    <section id="class-schedule">
+  <h2>Weekly Classes</h2>
+  <div class="class-card">
+    <h3>Morning Yoga</h3>
+    <p>Mon/Wed/Fri - 7:00 AM</p>
+  </div>
+  <div class="class-card">
+    <h3>HIIT Training</h3>
+    <p>Tue/Thu - 6:00 PM</p>
+  </div>
+  <div class="class-card">
+    <h3>Zumba Dance</h3>
+    <p>Sat - 10:00 AM</p>
+  </div>
+</section>
+    
+    <section id="booking-form">
+      <h2>Reserve Your Spot</h2>
+      <form id="reservationForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <select id="classType" required>
+          <option value="">Select Class</option>
+          <option value="yoga">Morning Yoga</option>
+          <option value="hiit">HIIT Training</option>
+          <option value="zumba">Zumba Dance</option>
+        </select>
+        <input type="date" id="date" required>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 FitLife Gym</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
