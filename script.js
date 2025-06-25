@@ -23,7 +23,7 @@ Por favor, confírmenme la disponibilidad. ¡Gracias!`;
   
   // Create WhatsApp link
   // REPLACE 1234567890 WITH YOUR ACTUAL WHATSAPP NUMBER
-  const whatsappUrl = `https://wa.me/1234567890?text=${encodedMessage}`;
+  const whatsappUrl = `https://wa.me/59162108521?text=${encodedMessage}`;
   
   // Open WhatsApp
   window.open(whatsappUrl, '_blank');
