@@ -15,6 +15,6 @@ document.getElementById('reservationForm').addEventListener('submit', async (e) 
     body: JSON.stringify(formData)
   });
 
-  alert('Booking submitted! We\'ll confirm via email.');
-  document.getElementById('reservationForm').reset();
+  // Change English alert to Spanish
+alert('¡Reserva enviada! Te confirmaremos por correo.');
 });
